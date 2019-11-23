@@ -19,6 +19,7 @@ for df in dataset:
     df.set_index(df['Date'], inplace=True)
     df['hull_moving_avg']        
     '''
+
 period = 13
 period2 = int(period/2)
 period3 = int(np.sqrt(period))
